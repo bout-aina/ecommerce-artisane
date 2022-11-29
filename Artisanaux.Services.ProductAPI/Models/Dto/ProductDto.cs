@@ -9,7 +9,7 @@ namespace Artisanaux.Services.ProductAPI.Models.Dto
        
         public string ProductName { get; set; }
        
-        public Double Price { get; set; }
+        public double Price { get; set; }
         public string CategoryName { get; set; }
         public string ImageURL { get; set; }
     }
