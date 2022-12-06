@@ -42,6 +42,15 @@ namespace Artisanaux.Services.ProductAPI.Controllers
             
             
         }
+        
+        //[HttpPost]
+        //public async Task<object> Post(ProductDto ProductDto)
+        //{
+        //    ProductDto product = await _productRepository!.CreateUpdateProduct(ProductDto);
+         
+        //    return Ok(Post);
+
+        //}
 
     }
 }
