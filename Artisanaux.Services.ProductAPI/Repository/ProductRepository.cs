@@ -22,7 +22,18 @@ namespace Artisanaux.Services.ProductAPI.Repository
 
         public Task<ProductDto> CreateUpdateProduct(ProductDto productDto)
         {
-            throw new NotImplementedException();
+            var product = _mapper.Map<Product>(productDto);
+            if (productDto.ProductId == 0)
+            {
+                  _db.Add(product);
+            }
+            else
+            {
+                 _db.Update(product);
+            }
+            _db.SaveChanges();
+
+            return Task.FromResult(_mapper.Map<ProductDto>(product));
         }
 
         public async Task<bool> DeleteProduct(int productId)
