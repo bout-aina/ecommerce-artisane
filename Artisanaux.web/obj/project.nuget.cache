@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fnZEZDfbzyShfk/tIKFooShad4OzMUTsJQWM4GGIdwvvYKq119GKrUrvwTApJ01zpzNGrFDkGk9KuKSg4hWujQ==",
+  "dgSpecHash": "piPUSvLIf7ATnwcmmKoaumSd0YFDPOhdsxHpEzb3nkAYFYozRQ+by3L6ozVK++svEX4jOcB9iUmtkFGNUFcA1w==",
   "success": true,
   "projectFilePath": "C:\\Users\\boutainita\\source\\repos\\EcommerceArtisanaux\\Artisanaux.web\\Artisanaux.web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\boutainita\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
