@@ -24,3 +24,5 @@ C:\Users\boutainita\source\repos\EcommerceArtisanaux\Artisanaux.web\obj\Debug\ne
 C:\Users\boutainita\source\repos\EcommerceArtisanaux\Artisanaux.web\obj\Debug\net6.0\Artisanaux.web.pdb
 C:\Users\boutainita\source\repos\EcommerceArtisanaux\Artisanaux.web\obj\Debug\net6.0\Artisanaux.web.genruntimeconfig.cache
 C:\Users\boutainita\source\repos\EcommerceArtisanaux\Artisanaux.web\obj\Debug\net6.0\ref\Artisanaux.web.dll
+C:\Users\boutainita\source\repos\EcommerceArtisanaux\Artisanaux.web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\boutainita\source\repos\EcommerceArtisanaux\Artisanaux.web\obj\Debug\net6.0\Artisanaux.web.csproj.CopyComplete

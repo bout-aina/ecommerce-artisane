@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Artisanaux.Services.ProductAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/products")]
     [ApiController]
     public class ProductApiController : ControllerBase
     {
@@ -43,14 +43,14 @@ namespace Artisanaux.Services.ProductAPI.Controllers
             
         }
         
-        //[HttpPost]
-        //public async Task<object> Post(ProductDto ProductDto)
-        //{
-        //    ProductDto product = await _productRepository!.CreateUpdateProduct(ProductDto);
+        [HttpPost]
+        public async Task<object> Post(ProductDto ProductDto)
+        {
+            ProductDto product = await _productRepository!.CreateUpdateProduct(ProductDto);
          
-        //    return Ok(Post);
+            return Ok(product);
 
-        //}
+       }
 
     }
 }

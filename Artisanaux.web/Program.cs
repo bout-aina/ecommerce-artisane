@@ -1,5 +1,13 @@
+using Artisanaux.web;
+using Artisanaux.web.Services;
+using Artisanaux.web.Services.IServices;
+
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.Services.AddHttpClient<IProductServices, ProductService>();
+SD.ProductAPIBase = builder.Configuration["ServiceUrls:ProductAPI"];
+builder.Services.AddScoped<IProductServices,ProductService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
